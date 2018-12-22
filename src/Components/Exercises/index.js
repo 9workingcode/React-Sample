@@ -7,10 +7,10 @@ const styles = {
   Paper: { padding: 20, marginTop: 20, marginBottom: 20 }
 };
 
-export default props => (
+export default ({ exercises }) => (
   <Grid container spacing={16}>
     <Grid item xs>
-      <LeftPane styles={styles} />
+      <LeftPane styles={styles} exercises={exercises} />
     </Grid>
     <Grid item xs>
       <RightPane styles={styles} />
