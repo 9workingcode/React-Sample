@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Header, Footer } from "./Layouts";
 import Exercises from "./Exercises";
+import { muscles, exercises } from "../store";
 
 export default class extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class extends Component {
       <Fragment>
         <Header />
         <Exercises />
-        <Footer />
+        <Footer muscles={muscles} />
       </Fragment>
     );
   }
