@@ -26,6 +26,7 @@ export default class extends Component {
       <Fragment>
         <Header />
         <Exercises exercises={exercises} />
+        <Exercises />
         <Footer muscles={muscles} />
       </Fragment>
     );
