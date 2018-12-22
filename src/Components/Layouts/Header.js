@@ -8,7 +8,7 @@ export default props => {
     <AppBar position="static">
       <Toolbar>
         <Typography component="h4" gutterBottom>
-          ExeApp
+          Exercise App
         </Typography>
       </Toolbar>
     </AppBar>
